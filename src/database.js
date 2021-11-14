@@ -2,11 +2,10 @@ const mysql = require('mysql');
 
 //Database Conection
 var mysqlConnection = mysql.createConnection({
-    host: 'bxgpumg5ivkv66ixbt22-mysql.services.clever-cloud.com',
-    port: '3306',
-    database: 'bxgpumg5ivkv66ixbt22',
-    user: 'ur6sdavldyr8spyp',
-    password: 'wFQbROKpoVo19Z4J0WNm',
+    host: 'us-cdbr-east-04.cleardb.com',
+    database: 'heroku_20030d5c5795d3f',
+    user: 'b9c7feb71ada1d',
+    password: '2b410ccb',
     multipleStatements: true
 }); 
 
